@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        header{
+        background-color: rgb(72, 71, 71);
+        color: white;
+        padding: 15px;
+        text-align: center;        
+        }
+
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #a49d9d;
+        min-height: 100vh; 
+        display: flex; 
+        flex-direction: column;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(72, 71, 71);
+            color: white;
+        }
+
+        input{
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+
+        textarea{
+            /* margin-bottom: 10px; */
+            margin-left: 10px;
+
+        }
+
+    section p{
+        margin: 10pt;
+        color: rgb(38, 31, 224);
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <section>
+        <form action="./success.html" method="post">
+        
+           
+        <p>Kindly complete the contact form below, and our team will contact you shortly.</p>
+
+        <fieldset>
+        <legend>Contact Form  </legend> <br>
+        
+        <label for="firstname" ><sup>*</sup>FirstName :</label>
+        <input type="text" required placeholder="Enter Your FirstName"> <br>
+        
+        <label for="lastname" > LastName :</label>
+        <input type="text"  placeholder="Enter Your Lastname">  <br>
+        
+        <label for="address"> Address :</label> 
+        <textarea name="" id="" cols="100" rows="3" maxlength="150">Address</textarea><br><br>
+        
+        <label for="dob">DateofBirth :</label>
+        <input type="date"><br><br>
+
+        <label for="Gender"> Gender :</label>
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female <br><br>
+
+        <label for="mail"><sup>*</sup>Email id :</label>
+        <input type="email" required placeholder="Enter Valid Email"><br>
+
+        <label for="phone"><sup>*</sup>PhoneNumber: </label>
+        <input type="tel" pattern="[0-9]{10}" maxlength="10"  required placeholder="Vaid 10 digit mobile number"><br>
+
+        <input type="submit">
+        <input type="reset">
+
+        
+
+ 
+
+
+        
+
+
+        </fieldset>
+        </form>
+
+
+    </section>
+
+        <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2026 vigneshvsvn| HTML Portfolio</p>
+        <p>email: vigneshvsvn@gmail.com | Phone Number: +91 9487420965</p>
+    </footer>
+
+    
+</body>
+</html>
